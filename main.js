@@ -21,4 +21,4 @@ var server = http.createServer(onRequest);
 server.listen(80);
  
 // Poner un mensaje en la consola
-console.log("Servidor funcionando en http://localhost:80/");
+console.log("Servidor funcionando en puerto 80");
