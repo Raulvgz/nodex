@@ -7,5 +7,6 @@
     "dependencies": {},
     "scripts": {
         "start": "node main.js"
-    }
+    }, 
+    "main": "server.js"
 }
