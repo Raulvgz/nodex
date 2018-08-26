@@ -6,6 +6,6 @@
     "contributors": [],
     "dependencies": {},
     "scripts": {
-        "start": "node nodex.js"
+        "start": "node main.js"
     }
 }
