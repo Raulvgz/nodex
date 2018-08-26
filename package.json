@@ -8,5 +8,5 @@
     "scripts": {
         "start": "node main.js"
     }, 
-    "main": "server.js"
+    "main": "main.js"
 }
