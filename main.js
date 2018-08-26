@@ -16,9 +16,13 @@ function onRequest(request, response) {
 }
  
 var server = http.createServer(onRequest);
+
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'   
+server.listen(server_port, server_ip_address, function () { console.log( "Listening on " + server_ip_address + ", port " + server_port ) });
  
 // Escuchar al puerto 1080
-server.listen(1080);
+//server.listen(1080);
  
 // Poner un mensaje en la consola
 console.log("Servidor funcionando en puerto 1080");
