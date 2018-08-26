@@ -17,8 +17,8 @@ function onRequest(request, response) {
  
 var server = http.createServer(onRequest);
  
-// Escuchar al puerto 8080
-server.listen(8080);
+// Escuchar al puerto 80
+server.listen(80);
  
 // Poner un mensaje en la consola
-console.log("Servidor funcionando en http://localhost:8080/");
+console.log("Servidor funcionando en http://localhost:80/");
